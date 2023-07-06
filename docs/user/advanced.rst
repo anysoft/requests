@@ -863,6 +863,104 @@ the very common Basic Auth.
 ::
 
     >>> from requests.auth import HTTPBasicAuth
+                >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+                >>> r = requests.post(url=url, data=body, auth=auth)
+                >>> r.status_code
+                201
+
+                >>> content = r.json()
+                >>> print(content['body'])
+                Sounds great! I'll get right on it.
+
+            Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+            I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+            allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+            that.
+            >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+            >>> r = requests.post(url=url, data=body, auth=auth)
+            >>> r.status_code
+            201
+
+            >>> content = r.json()
+            >>> print(content['body'])
+            Sounds great! I'll get right on it.
+
+        Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+        I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+        allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+        that.
+            >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+            >>> r = requests.post(url=url, data=body, auth=auth)
+            >>> r.status_code
+            201
+
+            >>> content = r.json()
+            >>> print(content['body'])
+            Sounds great! I'll get right on it.
+
+        Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+        I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+        allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+        that.
+        >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+        >>> r = requests.post(url=url, data=body, auth=auth)
+        >>> r.status_code
+        201
+
+        >>> content = r.json()
+        >>> print(content['body'])
+        Sounds great! I'll get right on it.
+
+    Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+    I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+    allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+    that.
+            >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+            >>> r = requests.post(url=url, data=body, auth=auth)
+            >>> r.status_code
+            201
+
+            >>> content = r.json()
+            >>> print(content['body'])
+            Sounds great! I'll get right on it.
+
+        Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+        I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+        allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+        that.
+        >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+        >>> r = requests.post(url=url, data=body, auth=auth)
+        >>> r.status_code
+        201
+
+        >>> content = r.json()
+        >>> print(content['body'])
+        Sounds great! I'll get right on it.
+
+    Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+    I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+    allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+    that.
+        >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
+
+        >>> r = requests.post(url=url, data=body, auth=auth)
+        >>> r.status_code
+        201
+
+        >>> content = r.json()
+        >>> print(content['body'])
+        Sounds great! I'll get right on it.
+
+    Brilliant. Oh, wait, no! I meant to add that it would take me a while, because
+    I had to go feed my cat. If only I could edit this comment! Happily, GitHub
+    allows us to use another HTTP verb, PATCH, to edit this comment. Let's do
+    that.
     >>> auth = HTTPBasicAuth('fake@example.com', 'not_a_real_password')
 
     >>> r = requests.post(url=url, data=body, auth=auth)
